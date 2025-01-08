@@ -1,0 +1,31 @@
+.pagination {
+    column-gap: 8px;
+  a, span {
+    display: flex;
+    width: 44px;
+    padding: 13px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    text-decoration: none;
+    color: #675BC8;
+  }
+  .disabled{
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .active-button{
+    border-radius: 4px;
+    border: 1px solid #dfdfdf;
+    background: #675BC8;
+    color: #fff;
+  }
+  .back-button {
+    a {
+      color: #675bc8;
+    }
+  }
+}

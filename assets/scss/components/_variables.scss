@@ -1,0 +1,42 @@
+// Colors
+$black: #0C0C0C;
+$white: #FFFFFF;
+
+// Primary Colors
+$primary: #675BC8;
+$primary-100: #EAE8F7;
+$primary-400: #9990DA;
+$primary-700: #4F408F;
+$primary-900: #2E256F;
+
+// Secondary Colors
+$secondary: #0A453A;
+$secondary-100: #B3F4E9; // Extraído do estilo Secondary/100
+
+// Neutral Colors
+$neutral-gray-4: #DFDFDF;
+$neutral-gray-5: #C8C8C8;
+$neutral-gray-6: #868686;
+
+// Typography
+$font-family-base: 'Inter', sans-serif;
+
+// Text Styles (baseado nos estilos encontrados)
+$caption-s: 12px;    // Caption-S
+$caption-l: 14px;    // Caption-L
+$caption-xl: 16px;   // Caption-XL
+$body-s: 14px;       // Body-S
+$button-s: 14px;     // Button-S
+$button-l: 16px;     // Button-L
+$h6: 20px;          // H6
+$h2: 32px;          // H2
+
+// Component Specific
+$border-radius-base: 4px;      // Encontrado em vários componentes
+$transition-duration: 300ms;    // Baseado nas transições encontradas
+$spacing-base: 8px;            // Baseado no itemSpacing comum
+$padding-component: 13px 18px;  // Baseado no padding dos componentes
+
+// Layout
+$container-width: 1440px;      // Baseado na largura do frame principal
+

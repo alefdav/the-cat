@@ -1,0 +1,37 @@
+.content-cats {
+  
+    .card-title {
+      display: flex;
+      justify-content: space-between;
+
+      .favoritar-gato{
+        width: 24px;
+        height: 24px;
+
+        cursor: pointer;
+
+        svg{
+          transition: all 0.1s ease;
+        }
+
+        &:hover{
+            svg {
+                fill: red;
+                path {
+                    stroke: red;
+                }
+            }
+        }
+
+        &.favoritado{
+            svg {
+                fill: red;
+                
+                path {
+                    stroke: red;
+                }
+            }
+        }
+      }
+    }
+  }

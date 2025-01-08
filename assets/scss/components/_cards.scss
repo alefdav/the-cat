@@ -1,0 +1,84 @@
+.card{
+    border-radius: 16px;    
+    border: 1px solid var(--neutral-gray-4-dfdfdf, #DFDFDF);    
+    background: var(--White, #FFF); 
+    position: relative; 
+
+    .rare-card{
+        position: absolute;
+        top: -9px;
+        left: 14px;
+
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    img{
+        height: 159px;
+        align-self: stretch;
+        object-fit: cover;
+    }
+
+    .card-body{
+        padding: 16px;
+
+        .card-title{
+            
+        }
+
+        .card-infos{
+            row-gap: 8px;
+        }
+
+        .card-location{
+            padding: 16px 0;
+        }
+
+        .card-points{
+            row-gap: 16px;
+            overflow: hidden;
+            height: 85px;
+            transition: height 0.3s ease-in-out;
+            div{
+                width: 46%;
+                
+                :first-child{
+                    font-weight: 500;
+                }
+
+                :last-child{
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                    color: $primary-900;
+                    border-radius: 8px;
+                    background: $primary-100;
+                    min-width: 37px;
+                    height: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .card-more-info{
+
+            p{
+                margin-top: 16px;
+            }
+            button{
+                color: $primary-900;
+                font-weight: 500;
+                width: 100%;
+                border-radius: 8px;
+                border: 1px solid $primary-900;
+                background: $white;
+                padding: 15px 0;
+            }
+        }
+    }
+}
